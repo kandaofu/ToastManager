@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'ToastManager'
+  s.name             = 'ToastHelper'
   s.version          = '1.0.0'
   s.summary          = 'Simple encapsulation of toast frame and waiting layer'
   s.description      = <<-DESC
