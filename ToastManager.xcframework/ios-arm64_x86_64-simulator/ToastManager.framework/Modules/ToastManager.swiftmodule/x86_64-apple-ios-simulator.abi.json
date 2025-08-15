@@ -1,0 +1,462 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "ToastManager",
+    "printedName": "ToastManager",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ToastManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "KToast",
+        "printedName": "KToast",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "delay",
+            "printedName": "delay",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CGFloat",
+                "printedName": "CoreGraphics.CGFloat",
+                "usr": "s:14CoreFoundation7CGFloatV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:12ToastManager6KToastC5delay14CoreFoundation7CGFloatVvpZ",
+            "mangledName": "$s12ToastManager6KToastC5delay12CoreGraphics7CGFloatVvpZ",
+            "moduleName": "ToastManager",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ToastManager6KToastC5delay14CoreFoundation7CGFloatVvgZ",
+                "mangledName": "$s12ToastManager6KToastC5delay12CoreGraphics7CGFloatVvgZ",
+                "moduleName": "ToastManager",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ToastManager6KToastC5delay14CoreFoundation7CGFloatVvsZ",
+                "mangledName": "$s12ToastManager6KToastC5delay12CoreGraphics7CGFloatVvsZ",
+                "moduleName": "ToastManager",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:12ToastManager6KToastC5delay14CoreFoundation7CGFloatVvMZ",
+                "mangledName": "$s12ToastManager6KToastC5delay12CoreGraphics7CGFloatVvMZ",
+                "moduleName": "ToastManager",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "show",
+            "printedName": "show(_:delay:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12ToastManager6KToastC4show_5delayySS_14CoreFoundation7CGFloatVSgtFZ",
+            "mangledName": "$s12ToastManager6KToastC4show_5delayySS_12CoreGraphics7CGFloatVSgtFZ",
+            "moduleName": "ToastManager",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "hideLoading",
+            "printedName": "hideLoading()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12ToastManager6KToastC11hideLoadingyyFZ",
+            "mangledName": "$s12ToastManager6KToastC11hideLoadingyyFZ",
+            "moduleName": "ToastManager",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loading",
+            "printedName": "loading(_:tintColor:backgroundColor:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Double",
+                "printedName": "Swift.Double",
+                "hasDefaultArg": true,
+                "usr": "s:Sd"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIColor"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIColor",
+                "printedName": "UIKit.UIColor",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)UIColor"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12ToastManager6KToastC7loading_9tintColor010backgroundF0ySd_So7UIColorCAHtFZ",
+            "mangledName": "$s12ToastManager6KToastC7loading_9tintColor010backgroundF0ySd_So7UIColorCAHtFZ",
+            "moduleName": "ToastManager",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "KToast",
+                "printedName": "ToastManager.KToast",
+                "usr": "c:@M@ToastManager@objc(cs)KToast"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@ToastManager@objc(cs)KToast(im)init",
+            "mangledName": "$s12ToastManager6KToastCACycfc",
+            "moduleName": "ToastManager",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@ToastManager@objc(cs)KToast",
+        "mangledName": "$s12ToastManager6KToastC",
+        "moduleName": "ToastManager",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ToastManager",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/ToastManager\/ToastManager\/KToast.swift",
+      "kind": "IntegerLiteral",
+      "offset": 237,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/ToastManager\/ToastManager\/KToast.swift",
+      "kind": "FloatLiteral",
+      "offset": 345,
+      "length": 3,
+      "value": "1.5"
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/ToastManager\/ToastManager\/KToast.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1088,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/ToastManager\/ToastManager\/KToast.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1256,
+      "length": 12,
+      "value": "102408152015"
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/ToastManager\/ToastManager\/KToast.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1382,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/ToastManager\/ToastManager\/KToast.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1388,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/ToastManager\/ToastManager\/KToast.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1570,
+      "length": 12,
+      "value": "102408152015"
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/ToastManager\/ToastManager\/KToast.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1638,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/ToastManager\/ToastManager\/KToast.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1747,
+      "length": 2,
+      "value": "80"
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/ToastManager\/ToastManager\/KToast.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1849,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/ToastManager\/ToastManager\/KToast.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1900,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/ToastManager\/ToastManager\/KToast.swift",
+      "kind": "FloatLiteral",
+      "offset": 2010,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/ToastManager\/ToastManager\/KToast.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2061,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/ToastManager\/ToastManager\/KToast.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2111,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/ToastManager\/ToastManager\/KToast.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2445,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/kiven\/Documents\/Framework_Note\/ToastManager\/ToastManager\/KToastView.swift",
+      "kind": "FloatLiteral",
+      "offset": 189,
+      "length": 3,
+      "value": "1.5"
+    }
+  ]
+}
